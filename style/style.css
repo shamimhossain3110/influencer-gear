@@ -9,9 +9,19 @@
   justify-content: space-between;
   align-items: center;
 }
+.nav-title {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .nav-item {
   list-style: none;
   gap: 30px;
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .nav-link {
   text-decoration: none;
@@ -25,7 +35,7 @@
 /* banner related style */
 .banner {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 100px auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -51,8 +61,9 @@
   border: none;
   border-radius: 41px;
   font-family: Poppins;
-font-size: 1rem;
-font-weight: 700;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 .banner-pics {
   display: flex;
@@ -61,8 +72,29 @@ font-weight: 700;
   position: absolute;
 }
 
-
 /* companies related style */
-.companies{
+.div {
+  max-width: 1110px;
+  height: 1px;
+  margin: 0px auto;
+  padding-bottom: 35px;
+}
+.companies {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 20px;
+}
+
+
+
+
+
+
+/* Responsive related style  */
+
+/* small devices */
+@media screen and (max-width: 576px) {
   
 }
