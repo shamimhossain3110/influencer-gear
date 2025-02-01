@@ -1,0 +1,68 @@
+/* shared style */
+.display-flex {
+  display: flex;
+}
+
+/* navbar related style  */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+  gap: 30px;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner related style */
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 3.25rem;
+  font-weight: 700;
+  width: 582px;
+  margin-bottom: 10px;
+}
+.banner-description {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 505px;
+}
+.pre-book-btn {
+  background: #e02c6d;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 41px;
+  font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+}
+.banner-pics {
+  display: flex;
+}
+.banner-pic2 {
+  position: absolute;
+}
+
+
+/* companies related style */
+.companies{
+  
+}
